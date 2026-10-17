@@ -1,0 +1,171 @@
+/* MISTY COVEN — Enchanted Forest Theme
+   Lioden cave CSS
+   Palette: deep forest / moonlit mist / antique gold
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:wght@400;500;600&display=swap');
+
+body {
+    background:
+        linear-gradient(rgba(10, 25, 20, .82), rgba(8, 18, 15, .90)),
+        url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2400&q=85")
+        center center / cover fixed no-repeat !important;
+    color: #e8e2d2 !important;
+    font-family: "EB Garamond", Georgia, serif !important;
+}
+
+#main {
+    background: rgba(17, 34, 27, .88) !important;
+    border: 1px solid rgba(188, 168, 112, .38) !important;
+    box-shadow: 0 0 35px rgba(0,0,0,.55) !important;
+}
+
+#main a,
+a {
+    color: #cdbb7b !important;
+}
+
+#main a:hover,
+a:hover {
+    color: #eee0a9 !important;
+    text-shadow: 0 0 8px rgba(205,187,123,.45);
+}
+
+h1, h2, h3, h4, .title {
+    font-family: "Cinzel", Georgia, serif !important;
+    color: #d8c98f !important;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 5px rgba(0,0,0,.7);
+}
+
+/* Header / navigation */
+.navbar,
+.navbar-default,
+#header {
+    background: rgba(9, 24, 18, .96) !important;
+    border-color: rgba(188, 168, 112, .25) !important;
+}
+
+.navbar a,
+.navbar-default .navbar-nav > li > a {
+    color: #d8ceb5 !important;
+}
+
+.navbar a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    background: rgba(188,168,112,.10) !important;
+    color: #eadb9c !important;
+}
+
+/* Panels and boxes */
+.panel,
+.well,
+.thumbnail,
+.alert,
+#sidebar {
+    background: rgba(19, 39, 30, .90) !important;
+    border: 1px solid rgba(188,168,112,.25) !important;
+    color: #e8e2d2 !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,.25);
+}
+
+.panel-heading {
+    background: rgba(30, 54, 40, .92) !important;
+    border-bottom: 1px solid rgba(188,168,112,.25) !important;
+    color: #d8c98f !important;
+    font-family: "Cinzel", Georgia, serif !important;
+}
+
+/* Tables */
+.table {
+    background: rgba(12, 28, 22, .72) !important;
+    color: #e8e2d2 !important;
+}
+
+.table > thead > tr > th {
+    background: rgba(44, 65, 48, .92) !important;
+    color: #d8c98f !important;
+    border-color: rgba(188,168,112,.22) !important;
+}
+
+.table > tbody > tr > td {
+    border-color: rgba(188,168,112,.13) !important;
+}
+
+.table > tbody > tr:hover {
+    background: rgba(188,168,112,.07) !important;
+}
+
+/* Buttons */
+.btn,
+button {
+    background: #263f31 !important;
+    border: 1px solid #a9965e !important;
+    color: #eee4c8 !important;
+    font-family: "EB Garamond", Georgia, serif !important;
+}
+
+.btn:hover,
+button:hover {
+    background: #385844 !important;
+    border-color: #d1bd78 !important;
+    color: white !important;
+}
+
+/* Form fields */
+input,
+textarea,
+select {
+    background: rgba(7, 19, 15, .85) !important;
+    border: 1px solid rgba(188,168,112,.38) !important;
+    color: #eee7d7 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #cdbb7b !important;
+    box-shadow: 0 0 8px rgba(205,187,123,.22) !important;
+}
+
+/* Quotes / special text */
+blockquote {
+    background: rgba(8, 22, 16, .55) !important;
+    border-left: 3px solid #ad995d !important;
+    color: #d9d1bf !important;
+    font-style: italic;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a1812;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #526b53;
+    border-radius: 8px;
+    border: 2px solid #0a1812;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a9965e;
+}
+
+/* Misty Coven atmosphere */
+#main:before {
+    content: "☾  M I S T Y   C O V E N  ☽";
+    display: block;
+    text-align: center;
+    padding: 14px 5px;
+    margin-bottom: 15px;
+    color: #d8c98f;
+    font-family: "Cinzel", Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 12px rgba(216,201,143,.25);
+    border-bottom: 1px solid rgba(188,168,112,.25);
+}
